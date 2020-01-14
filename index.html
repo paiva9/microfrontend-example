@@ -1,26 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html> 
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Microfrontend RAV</title>
+    
+    <style>  
+      .wrapper {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+        margin-top: 50px;
+      }
+    </style>
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width" />
-  <title>Microfrontend RAV</title> 
-</head>
+  <body> 
+    <div class="wrapper">
+      <div id="app1"></div>
+      <div id="app2"></div> 
+      <div id="app3"></div> 
+    </div>
 
-<body>
-  <!-- Load the application -->
- 
-  <!-- Static navbar -->
-  
-  <div>
-    <div id="app1"></div>
-    <div id="app2"></div> 
-    <div id="app3"></div> 
-  </div>
-
-
-  <script src="/dist/common-dependencies.js"></script>
-  <script src="/dist/root-application.js"></script>
-</body>
-
+    <script src="/dist/common-dependencies.js"></script>
+    <script src="/dist/root-application.js"></script>
+  </body> 
 </html>

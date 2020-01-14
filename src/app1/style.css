@@ -1,4 +1,13 @@
-.react {
-    background:blue;
+#app1 {
+    position: relative;
+    width: 30%;
+    margin-right: 30px;
+}
+
+.react { 
+    width: 100%;
+    background:#61DAFB;
     color: white;
+    padding: 10px;
+    text-align: center; 
 }

@@ -4,7 +4,7 @@ import './style.css';
 export default class Root extends React.Component<any,any> {
   render() {
     return (
-        <div className="react" style={{marginTop: '100px'}}>
+        <div className="react">
           Hello from React
         </div>
     );

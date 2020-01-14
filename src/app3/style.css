@@ -1,4 +1,8 @@
 .vue {
-    background: green;
+    position: relative;
+    width: 30%;
+    background: #46B783;
     color: white;
+    padding:10px;
+    text-align: center;
 }
